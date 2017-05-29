@@ -122,7 +122,7 @@ $("form").submit(function() {
 		url: "mail.php",
 		data: $("form").serialize()
 	}).done(function() {
-		alert("Спасибо за заявку!");
+		alert("дякую за реєстрацію!");
 		setTimeout(function() {
 			$.fancybox.close();
 		}, 1000);
